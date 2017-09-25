@@ -1,0 +1,192 @@
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/pablo/Escritorio/ROBOTICA 2017-2018/gitLocal/ClasesRobotica/Cthread/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec774180762/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec774180762.dir/build.make CMakeFiles/cmTryCompileExec774180762.dir/build
+make[1]: se ingresa al directorio «/home/pablo/Escritorio/ROBOTICA 2017-2018/gitLocal/ClasesRobotica/Cthread/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report "/home/pablo/Escritorio/ROBOTICA 2017-2018/gitLocal/ClasesRobotica/Cthread/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building CXX object CMakeFiles/cmTryCompileExec774180762.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec774180762.dir/CheckSymbolExists.cxx.o -c "/home/pablo/Escritorio/ROBOTICA 2017-2018/gitLocal/ClasesRobotica/Cthread/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx"
+/home/pablo/Escritorio/ROBOTICA 2017-2018/gitLocal/ClasesRobotica/Cthread/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/pablo/Escritorio/ROBOTICA 2017-2018/gitLocal/ClasesRobotica/Cthread/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^
+make[1]: *** [CMakeFiles/cmTryCompileExec774180762.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio «/home/pablo/Escritorio/ROBOTICA 2017-2018/gitLocal/ClasesRobotica/Cthread/CMakeFiles/CMakeTmp»
+make: *** [cmTryCompileExec774180762/fast] Error 2
+
+File /home/pablo/Escritorio/ROBOTICA 2017-2018/gitLocal/ClasesRobotica/Cthread/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/pablo/Escritorio/ROBOTICA 2017-2018/gitLocal/ClasesRobotica/Cthread/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1382600185/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1382600185.dir/build.make CMakeFiles/cmTryCompileExec1382600185.dir/build
+make[1]: se ingresa al directorio «/home/pablo/Escritorio/ROBOTICA 2017-2018/gitLocal/ClasesRobotica/Cthread/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report "/home/pablo/Escritorio/ROBOTICA 2017-2018/gitLocal/ClasesRobotica/Cthread/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building CXX object CMakeFiles/cmTryCompileExec1382600185.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec1382600185.dir/CheckSymbolExists.cxx.o -c "/home/pablo/Escritorio/ROBOTICA 2017-2018/gitLocal/ClasesRobotica/Cthread/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx"
+/home/pablo/Escritorio/ROBOTICA 2017-2018/gitLocal/ClasesRobotica/Cthread/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/pablo/Escritorio/ROBOTICA 2017-2018/gitLocal/ClasesRobotica/Cthread/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^
+make[1]: *** [CMakeFiles/cmTryCompileExec1382600185.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio «/home/pablo/Escritorio/ROBOTICA 2017-2018/gitLocal/ClasesRobotica/Cthread/CMakeFiles/CMakeTmp»
+make: *** [cmTryCompileExec1382600185/fast] Error 2
+
+File /home/pablo/Escritorio/ROBOTICA 2017-2018/gitLocal/ClasesRobotica/Cthread/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/pablo/Escritorio/ROBOTICA 2017-2018/gitLocal/ClasesRobotica/Cthread/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2167480953/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2167480953.dir/build.make CMakeFiles/cmTryCompileExec2167480953.dir/build
+make[1]: se ingresa al directorio «/home/pablo/Escritorio/ROBOTICA 2017-2018/gitLocal/ClasesRobotica/Cthread/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report "/home/pablo/Escritorio/ROBOTICA 2017-2018/gitLocal/ClasesRobotica/Cthread/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building CXX object CMakeFiles/cmTryCompileExec2167480953.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec2167480953.dir/CheckSymbolExists.cxx.o -c "/home/pablo/Escritorio/ROBOTICA 2017-2018/gitLocal/ClasesRobotica/Cthread/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx"
+/home/pablo/Escritorio/ROBOTICA 2017-2018/gitLocal/ClasesRobotica/Cthread/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/pablo/Escritorio/ROBOTICA 2017-2018/gitLocal/ClasesRobotica/Cthread/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^
+make[1]: *** [CMakeFiles/cmTryCompileExec2167480953.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio «/home/pablo/Escritorio/ROBOTICA 2017-2018/gitLocal/ClasesRobotica/Cthread/CMakeFiles/CMakeTmp»
+make: *** [cmTryCompileExec2167480953/fast] Error 2
+
+File /home/pablo/Escritorio/ROBOTICA 2017-2018/gitLocal/ClasesRobotica/Cthread/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/pablo/Escritorio/ROBOTICA 2017-2018/ejemplo1.3/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4098905798/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4098905798.dir/build.make CMakeFiles/cmTryCompileExec4098905798.dir/build
+make[1]: se ingresa al directorio «/home/pablo/Escritorio/ROBOTICA 2017-2018/ejemplo1.3/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report "/home/pablo/Escritorio/ROBOTICA 2017-2018/ejemplo1.3/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building CXX object CMakeFiles/cmTryCompileExec4098905798.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec4098905798.dir/CheckSymbolExists.cxx.o -c "/home/pablo/Escritorio/ROBOTICA 2017-2018/ejemplo1.3/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx"
+/home/pablo/Escritorio/ROBOTICA 2017-2018/ejemplo1.3/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/pablo/Escritorio/ROBOTICA 2017-2018/ejemplo1.3/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^~~~~~~~
+make[1]: *** [CMakeFiles/cmTryCompileExec4098905798.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio «/home/pablo/Escritorio/ROBOTICA 2017-2018/ejemplo1.3/CMakeFiles/CMakeTmp»
+make: *** [cmTryCompileExec4098905798/fast] Error 2
+
+File /home/pablo/Escritorio/ROBOTICA 2017-2018/ejemplo1.3/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/pablo/Escritorio/ROBOTICA 2017-2018/ejemplo1.3/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec787037971/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec787037971.dir/build.make CMakeFiles/cmTryCompileExec787037971.dir/build
+make[1]: se ingresa al directorio «/home/pablo/Escritorio/ROBOTICA 2017-2018/ejemplo1.3/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report "/home/pablo/Escritorio/ROBOTICA 2017-2018/ejemplo1.3/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building CXX object CMakeFiles/cmTryCompileExec787037971.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec787037971.dir/CheckSymbolExists.cxx.o -c "/home/pablo/Escritorio/ROBOTICA 2017-2018/ejemplo1.3/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx"
+/home/pablo/Escritorio/ROBOTICA 2017-2018/ejemplo1.3/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/pablo/Escritorio/ROBOTICA 2017-2018/ejemplo1.3/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^~~~~~~~
+make[1]: *** [CMakeFiles/cmTryCompileExec787037971.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio «/home/pablo/Escritorio/ROBOTICA 2017-2018/ejemplo1.3/CMakeFiles/CMakeTmp»
+make: *** [cmTryCompileExec787037971/fast] Error 2
+
+File /home/pablo/Escritorio/ROBOTICA 2017-2018/ejemplo1.3/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/pablo/Escritorio/ROBOTICA 2017-2018/ejemplo1.3/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec93220954/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec93220954.dir/build.make CMakeFiles/cmTryCompileExec93220954.dir/build
+make[1]: se ingresa al directorio «/home/pablo/Escritorio/ROBOTICA 2017-2018/ejemplo1.3/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report "/home/pablo/Escritorio/ROBOTICA 2017-2018/ejemplo1.3/CMakeFiles/CMakeTmp/CMakeFiles" 1
+Building CXX object CMakeFiles/cmTryCompileExec93220954.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec93220954.dir/CheckSymbolExists.cxx.o -c "/home/pablo/Escritorio/ROBOTICA 2017-2018/ejemplo1.3/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx"
+/home/pablo/Escritorio/ROBOTICA 2017-2018/ejemplo1.3/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/pablo/Escritorio/ROBOTICA 2017-2018/ejemplo1.3/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^~~~~~~~
+make[1]: *** [CMakeFiles/cmTryCompileExec93220954.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio «/home/pablo/Escritorio/ROBOTICA 2017-2018/ejemplo1.3/CMakeFiles/CMakeTmp»
+make: *** [cmTryCompileExec93220954/fast] Error 2
+
+File /home/pablo/Escritorio/ROBOTICA 2017-2018/ejemplo1.3/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
